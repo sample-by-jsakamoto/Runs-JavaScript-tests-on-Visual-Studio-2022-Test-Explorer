@@ -8,6 +8,6 @@ public class DogClassTests
     public void Bark_Test()
     {
         var dog = new DogClass();
-        Assert.AreEqual("Bow-wow", dog.Bark());
+        Assert.That(dog.Bark(), Is.EqualTo("Bow-wow"));
     }
 }
