@@ -1,11 +1,10 @@
 {
 	"name": "razorclasslibrary1.test",
 	"dependencies": {
-		"mocha": "8.1.3",
-		"ansi-regex": ">=5.0.1"
+		"mocha": "^11.1.0"
 	},
 	"devDependencies": {
-		"@types/mocha": "9.0.0",
-		"@types/node": "16.11.10"
+		"@types/mocha": "^10.0.10",
+		"@types/node": "^18.19.80"
 	}
 }
